@@ -22,7 +22,7 @@ html{
 }
 .container{
     width: 950px;
-    height:1525px;
+    height:100%;
 }   
 
 .nav{
@@ -40,6 +40,7 @@ html{
 a:hover{
     color: rgb(27, 27, 158);
     border-bottom: 1px solid purple;
+    border-top: 1px solid purple;
 }
 ul,li,a{
     display: flex;
@@ -220,3 +221,84 @@ ul,li,a{
    
 }
 
+/*work*/
+
+.img-work{
+    position: relative;
+    margin-left:300px ;
+    left: 80px;
+    top:-80px;
+    width:100px;
+}
+
+.work-title{
+    color:#474747;
+    font-family:"BebasNeue-Regular",sans-serif;
+    font-size: 18px; 
+    position: relative;
+    right:-80%;
+    top:-125px; ;
+}
+
+.container-box-work{
+    display: flex;
+    justify-content: flex-start;
+    width:220px ;
+    height: 400px;
+    
+}
+
+.box-work{
+    margin: 20px;
+    position: relative;
+    top: -1500px;
+    left: 344px;
+}
+
+.valarta{
+    color:#414141;
+    font-family:"BebasNeue-Regular",sans-serif;
+    font-size: 18px;
+    word-spacing: 1px;
+    padding: 5px;
+}
+
+.maecenas{
+    font-family: "HelveticaNeue",sans-serif;
+    color: #474747;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.project{  /*img*/
+    width: 10px;
+    height: 10px;
+    margin: 0px;
+    position:relative;
+    top: 2px;
+    right:-60%;  
+}
+
+.view{  /*link*/
+    color:#474747;
+    font-family:"BebasNeue-Regular",sans-serif;
+    font-size: 15px  
+}
+
+/*footer*/
+
+.footer{
+    position: relative;
+    top: -97%;
+}
+.i_f{
+    position: relative;
+    right: -20%;
+}
+.p_f{
+    position: relative;
+    right: -20%;  
+    color: #a5a5a5;
+    font-family: "HelveticaNeue",sans-serif;
+    font-size: 12px;
+}

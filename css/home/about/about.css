@@ -1,0 +1,100 @@
+@font-face{
+    font-family: PacificoRegular;
+    src:url(/fonts/Pacifico-Regular.woff) format("woff");
+}
+@font-face{
+    font-family: BebasNeue-Regular;
+    src: url(/fonts/BebasNeue-Regular.woff) format("woff");
+}
+
+@font-face{
+    font-family:HelveticaNeue;
+    src: url(/fonts/HelveticaNeue.woff) format("woff");
+}
+
+body,
+html{
+    width:1400px;
+    display: block;
+    background-color:#fff;
+}
+.container{
+    width: 950px;
+}   
+/*Навигация*/
+.nav{
+    margin-top: 50px;
+    margin-left:290px;
+  }
+  .bliz,h2{
+      font-family:"PacificoRegular",sans-serif;
+      font-size: 42px;
+      color: #474747;
+      position: relative;
+      top: -42px;
+      
+  }
+  a:hover{
+      color: rgb(27, 27, 158);
+      border-bottom: 1px solid purple;
+      border-top: 1px solid purple;
+  }
+  ul,li,a{
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      padding: 15px;
+      list-style: none;
+      text-decoration: none;
+      font-family:"BebasNeue-Regular",sans-serif ;
+      font-size: 30px;
+      color: #474747;
+  }
+  .nav-link{
+      position: relative;
+      top:-140px;
+      left:15%;
+  }
+  .home{
+      text-align: center;
+      position: relative;
+      top: -70%;
+      left: 120px;
+      color: #a5a5a5;
+      font-family:"BebasNeue-Regular",sans-serif ;
+      font-size: 24px;
+      width: 150px;
+      height: 20px;
+  }
+  .home-get{
+      text-align: center;
+      position: relative;
+      top: -70%;
+      left: 135px;
+      color: #a5a5a5;
+      font-family:"BebasNeue-Regular",sans-serif ;
+      font-size: 24px;
+      width: 150px;
+      height: 20px; 
+  }
+  .li-nav{
+      padding: 0px;
+      margin: 0px;
+  }
+
+  /*Block About*/
+  .about{
+    margin-left:290px;
+    margin-top: -70px;
+  }
+
+  .about_title{
+    font-family:"BebasNeue-Regular",sans-serif;
+    color: #474747;
+    font-size: 34px;
+  } 
+  .about_text{
+      color: #a5a5a5;
+      font-family: "HelveticaNeue",sans-serif;
+      font-style: italic;
+}
