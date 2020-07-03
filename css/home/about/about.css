@@ -19,12 +19,13 @@ html{
     background-color:#fff;
 }
 .container{
-    width: 950px;
+    max-width: 950px;
+    margin: 0px auto;
 }   
 /*Навигация*/
 .nav{
     margin-top: 50px;
-    margin-left:290px;
+    
   }
   .bliz,h2{
       font-family:"PacificoRegular",sans-serif;
@@ -84,10 +85,9 @@ html{
 
   /*Block About*/
   .about{
-    margin-left:290px;
+    
     margin-top: -70px;
   }
-
   .about_title{
     font-family:"BebasNeue-Regular",sans-serif;
     color: #474747;
@@ -97,4 +97,102 @@ html{
       color: #a5a5a5;
       font-family: "HelveticaNeue",sans-serif;
       font-style: italic;
+}
+
+/*==============================================*boxs*==================================*/
+
+.box_box{
+display: flex;   
+flex-direction: row;
+justify-content: flex-start; 
+}
+
+.box_mission{
+width:300px;
+height:300px;
+padding: 20px;
+}
+
+.our{
+    font-family:"BebasNeue-Regular",sans-serif;
+    color: #474747;
+    font-size: 20px; 
+}
+
+.eget{
+   font-family: "HelveticaNeue", sans-serif; 
+   font-size: 12px;
+   color: #9e9d9d;
+}
+
+.sed{
+    font-family: "HelveticaNeue", sans-serif; 
+    font-size: 12px;
+    color: #474747;  
+}
+
+/*===============================position==========================*/
+
+.container_posittion{
+    display: flex;
+    flex-direction: row;
+    position:relative;
+    top: 0px;
+    left: -322px;
+    right: 0px;
+    bottom: 0px;
+    height: 350px;
+    width: 300px;
+    
+}
+.position{
+    margin: 20px;
+}
+
+.jane{
+    font-family:"BebasNeue-Regular",sans-serif;
+    color: #474747;
+    font-size: 20px;
+    padding: 5px; 
+
+}
+
+.dote{
+    text-align: center;
+    position: relative;
+    top: -50px;
+    bottom: 0px;
+    left: 30%;
+    right: 0px;
+    font-family:"BebasNeue-Regular",sans-serif;
+    color: #515151;
+    font-size: 15px; 
+}
+
+.seo{
+    font-family:"BebasNeue-Regular",sans-serif;
+    color: #949393;
+    font-size: 14px; 
+    position: relative;
+    top: -23%; 
+    padding:5px;
+}
+
+.seded{
+    font-family: "HelveticaNeue", sans-serif;
+    font-size: 12px;  
+    color: #515151;
+    padding: 5px;
+    position: relative;
+    top:-23%;
+}
+
+/*================footer=============*/
+
+.foter_text{
+    font-family: "HelveticaNeue", sans-serif; 
+    color: #9b9b9b;
+    font-size: 12px;
+    line-height: 18px;
+    padding:25px;
 }
