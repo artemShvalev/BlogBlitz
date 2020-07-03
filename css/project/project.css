@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: PacificoRegular;
+    src:url(/fonts/Pacifico-Regular.woff) format("woff");
+}
+@font-face{
+    font-family: BebasNeue-Regular;
+    src: url(/fonts/BebasNeue-Regular.woff) format("woff");
+}
+
+@font-face{
+    font-family:HelveticaNeue;
+    src: url(/fonts/HelveticaNeue.woff) format("woff");
+}
+
+body,
+html{
+    width:1400px;
+    background-color:#fff;
+    display:block ;
+}
+.container{
+    max-width: 950px;
+    margin: 0px auto;
+} 
+
+/*navigation*/
+.nav{
+    margin-top: 50px;
+    
+  }
+  .bliz,h2{
+      font-family:"PacificoRegular",sans-serif;
+      font-size: 42px;
+      color: #474747;
+      position: relative;
+      top: -42px;
+      
+  }
+  a:hover{
+      color: rgb(27, 27, 158);
+      border-bottom: 1px solid purple;
+      border-top: 1px solid purple;
+  }
+  ul,li,a{
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      padding: 15px;
+      list-style: none;
+      text-decoration: none;
+      font-family:"BebasNeue-Regular",sans-serif ;
+      font-size: 30px;
+      color: #474747;
+  }
+  .nav-link{
+      position: relative;
+      top:-140px;
+      left:15%;
+  }
+  .home{
+      text-align: center;
+      position: relative;
+      top: -70%;
+      left: 120px;
+      color: #a5a5a5;
+      font-family:"BebasNeue-Regular",sans-serif ;
+      font-size: 24px;
+      width: 150px;
+      height: 20px;
+  }
+  .home-get{
+      text-align: center;
+      position: relative;
+      top: -70%;
+      left: 135px;
+      color: #a5a5a5;
+      font-family:"BebasNeue-Regular",sans-serif ;
+      font-size: 24px;
+      width: 150px;
+      height: 20px; 
+  }
+  .li-nav{
+      padding: 0px;
+      margin: 0px;
+  }
+  /*project*/
+
+  .about{
+    
+    margin-top: -70px;
+  }
+  .about_title{
+    font-family:"BebasNeue-Regular",sans-serif;
+    color: #474747;
+    font-size: 34px;
+  } 
+  .about_text{
+      color: #a5a5a5;
+      font-family: "HelveticaNeue",sans-serif;
+      font-style: italic;
+}
+
+/*navbar*/
+
+.li_cat{
+    border-left:1px solid #474747 ;
+    font-size: 14px;
+}
+li::before{
+    color:#474747;
+    cursor: row-resize;
+}
+li::after{
+    color: #9b9b9b;
+    cursor: w-resize;
+}
