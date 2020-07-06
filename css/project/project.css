@@ -23,7 +23,7 @@ html{
 }
 .container{
    width: 950px;
-    margin: 0px auto;
+   margin: 0px auto;
 } 
 
 /*navigation*/
@@ -36,7 +36,7 @@ html{
       font-size: 42px;
       color: #474747;
       position: relative;
-      top: -42px;
+      top: -50px;
       
   }
   a:hover{
@@ -48,7 +48,7 @@ html{
       display: flex;
       justify-content: space-between;
       position: relative;
-      padding: 15px;
+      padding: 5px;
       list-style: none;
       text-decoration: none;
       font-family:"BebasNeue-Regular",sans-serif ;
@@ -173,3 +173,28 @@ html{
     font-size: 12px;
     color:#acacac;
 }
+
+/*contentBox*/
+.cart__title{
+    margin: 0px ;
+}
+.nav_bar{
+    padding: 0px;
+    margin: 0px;
+}
+.categories__cart{
+    padding: 0px;
+    margin: 0px;
+    font: small;
+}
+.li_cat{
+    margin-left: 0px;
+    padding: 1px;
+    font-size: 14px;
+    border-left: 2px solid  #464646;;
+}
+.li_cat:hover{
+    color:#c9c9c9;
+    cursor: default;
+}
+/*Cartbox*/
