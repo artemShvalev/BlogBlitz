@@ -117,7 +117,7 @@ html{
 }
 .about_blitz{
     flex-direction: column;
-    margin: 0px;
+    margin-left: 10px;
     padding: 0px;
 }
 .ul,.li,.link_side{
@@ -200,3 +200,91 @@ html{
     border-right: 2px solid  #464646;
 }
 /*Cartbox*/
+.cartbox{
+    
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap:wrap;
+    width: 650px;
+}
+
+.block_cart{
+    margin: 0px;
+    width: 250px;
+    flex-wrap: wrap;
+}
+.wedding__cart__{
+    position: absolute;
+    left: 25%;
+}
+
+.block_cart__web__design{
+   position: absolute;
+   left: 45%;
+}
+.block_cart__jesus__wallpaper{
+    width: 250px;
+    position: relative;
+    top: 450px;
+    left: -250px;
+    right:0px;
+    bottom: 0px; 
+    
+}
+.block_cart__smoke__tutorial{
+    position: relative;
+    left: 50%; 
+    width: 250px;
+    height: 100%;
+}
+.block_cart__buisness__cards{
+    width: 250px;
+    position: relative;
+    top: -73px;
+    left: 455px;
+    right:0px;
+    bottom: 0px; 
+}
+
+.block_main_title{
+    font-family:"BebasNeue-Regular",sans-serif;
+    color: #464646;
+    font-size: 16px;
+    line-height: 18px;
+}
+.block_title{
+    color: #949393;
+    font-family:"BebasNeue-Regular",sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+}
+.block_description{
+    font-family:"HelveticaNeue", sans-serif;
+    color: #515151;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.slider{
+   margin-top: 50px;
+   margin-bottom: 50px;
+   margin-left: 150px;
+}
+/*footer*/
+
+.footer{
+  
+}
+.p_f__all{
+    font-family: "HelveticaNeue", sans-serif; 
+    color: #9b9b9b;
+    font-size: 12px;
+    line-height: 18px;
+    padding:25px;
+    position: absolute;
+    right: 20%;
+}
+.i_footer{
+   position: absolute;
+   right: 20%;
+}
