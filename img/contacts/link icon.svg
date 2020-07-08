@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16.313" height="9" viewBox="0 0 16.313 9">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #474747;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="link_icon" data-name="link icon" class="cls-1" d="M248.3,788.5h0l-4.5-4.5h-4.5l4.5,4.5-4.5,4.5h4.5Zm-7.3,0h0l-4.5-4.5H232l4.5,4.5L232,793h4.5l4.5-4.5h0Z" transform="translate(-232 -784)"/>
+</svg>
